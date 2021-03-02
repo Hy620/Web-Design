@@ -1,2 +1,2 @@
 # Web-Design
-homework
+In-class exercises
