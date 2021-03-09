@@ -1,0 +1,21 @@
+h1 {
+  color:blue;
+}
+p {
+  color:darkblue;
+}
+header h1{
+	color: grey;/*Cascading*/
+}
+
+.article-body {
+  background-color: lightgreen;
+}
+
+#footer-p {
+  color: darkgray;
+}
+
+header p {
+  color: gray;
+}

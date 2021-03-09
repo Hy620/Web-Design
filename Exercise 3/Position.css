@@ -1,0 +1,120 @@
+/* GLobal Style */
+html {
+	background-color: #7D60A6;
+	box-sizing: border-box;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit
+}
+
+body {
+	font-family: Georgia, serif;
+	font-size: 90%;
+}
+
+.container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+/* Header Style */
+.header {
+	padding-top: 20px;
+	/* padding-bottom: 20px; */
+	color: #A69C0F;
+}
+
+.header-title {
+	margin: 0;
+	font-weight: normal;
+	font-size: 165%;
+}
+
+.header-slogan {
+	margin: 0;
+}
+
+/* Navitation Bar Style */
+.nav {
+	margin-top: 20px;
+}
+
+.nav-list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-sublist {
+	position: absolute;
+	background-color: #e5e9dc;
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+.nav-list-item {
+	list-style: none;
+	margin-right: 5px;
+}
+
+.nav-list-item-link {
+	display: block;
+	color: #617140;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid #D9CC1E;
+	border-bottom: none;
+}
+
+/*下拉選單*/
+.nav-list-item-link:hover {
+	background-color: #A69C0F;
+}
+
+.nav-sublist .nav-list-item-link:hover {
+	background-color: #353FF2;
+	color: #fff;
+}
+
+
+
+.nav-list-item:hover .nav-sublist{
+	display: block;
+}
+
+
+/* Content Style */
+.content-area {
+	display: flex;
+	border-top: 3px solid #C09CD9;
+	border-bottom: 3px solid #C09CD9;
+}
+
+/* Main-Area Style */
+.main-area {
+	width: 66%;
+	padding-right: 40px;
+}
+
+/* SideBar Style */
+.sidebar {
+	width: 34%;
+	background-color: #C09CD9;
+	padding: 20px 40px;
+	font-size: 85%;
+}
+
+/* Footer */
+.footer {
+	text-align: center;
+	font-size: 85%;
+	color: #999;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
